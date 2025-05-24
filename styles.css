@@ -1,9 +1,12 @@
 body{
-    background-color: gray
-
+     background-color: #333333;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.title {
+.titulo {
     text-align: center;
 }
 
@@ -16,7 +19,6 @@ body{
 .key {
     position: absolute;
     border: 1px solid black;
-    /* Adicione uma transição suave para o efeito */
     transition: background-color 0.1s ease-in-out;
 }
 
@@ -27,8 +29,7 @@ body{
     z-index: 1;
 }
 
-.white:hover,
-.white.active { /* Adiciona a classe .active para o efeito de clique */
+.white:hover, .white.active { 
     background-color: #ababab;
 }
 
@@ -118,8 +119,12 @@ body{
     transform: translateX(840px);
 }
 
-.creditos {
+footer {
+    background-color: #636363;
+    color: var(--text-color);
     text-align: center;
-    color: black
-    
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border-color);
+    border-radius: 6px;
 }
